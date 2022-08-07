@@ -1,121 +1,181 @@
 <template>
- <div>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand buffer" href="#">Buffer</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <div>
+    <section class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand buffer" href="#">Buffer</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <div class="collapse navbar-collapse navc" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto navcd">
-          <li class="nav-item active ">
-            <a class="nav-link" href="#">Tools</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Customers</a>
-          </li>
-        </ul>
-        <form class="form-inline my-lg-">
-          <button class="btn btn-primary my-2 my-sm-0" type="submit">Get Started Now</button>
-        </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Customers</a>
+              </li>
+            </ul>
+            <form class="form-inline my-lg-">
+              <button class="btn btn-primary my-2 my-sm-0" type="submit">
+                Get Started Now
+              </button>
+            </form>
+          </div>
+        </nav>
       </div>
-    </nav>
-
-
-  </div>
-    <div class="container my-5 py-5">
-      <div class="row text-center gy-5">
-        <div class="col-lg-6 ">
-          <h1>Grow your audience <br> on social and beyond.</h1>
-          <p>Buffer helps you build an audience organically. We’re a <br> 
-          values-driven company that provides affordable, intuitive, <br> 
-          marketing tools for ambitious people and teams.</p>
-          <div class="buttons">
-            <button type="button" class="btn btn-primary">Get Started Now</button>
-            <button type="button" class="btn btn-outline-primary">Watch Video</button>
+    </section>
+    <section class="banner-section my-5 py-md-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center gy-5 gx-md-5">
+          <div class="col-lg-5 col-md-6">
+            <h1>Grow your audience on social and beyond.</h1>
+            <p>
+              Buffer helps you build an audience organically. We're a
+              values-driven company that provides affordable, intuitive,
+              marketing tools for ambitious people and teams.
+            </p>
+            <div class="buttons">
+              <button type="button" class="btn btn-primary">
+                Get Started Now
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Watch Video
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <img
+              src="../../src/assets/images/all-channels.png"
+              alt=""
+              class="img-fluid"
+            />
           </div>
         </div>
-        <div class="col-lg-6 ">
-          <img src="../../src/assets/images/all-channels.png" alt="" class="img-fluid "/>
-        </div>
-      </div>    
-    </div>
-
-      <div class="container mt-3">
-        <div class="row  justify-content-center gy-5">
-          <div class="col-lg-6 text-center">
-            <h1>Be where your customers are</h1>
-            <p>People spend, on average, almost 2.5 hours on social media 
-              <br> every day. Let them find your brand more easily through 
-              <br> these four simple steps:
+      </div>
+    </section>
+    <section class="my-5 py-md-5">
+      <div class="container-fluid">
+        <div class="row justify-content-center text-center gy-5 gx-md-5">
+          <div class="col-lg-5 col-md-8">
+            <h2>Be where your customers are</h2>
+            <p>
+              People spend, on average, almost 2.5 hours on social media every
+              day. Let them find your brand more easily through these four
+              simple steps:
             </p>
           </div>
-          <div class="col-lg-10">
-            <img src="../../src/assets/images/buffer-loop-v2.svg" alt="" class="img-fluid"/>
+          <div class="col-lg-12">
+            <img
+              src="../../src/assets/images/buffer-loop-v2.svg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-        </div>  
+        </div>
       </div>
-      
+    </section>
+    <section class="my-5 py-md-5">
       <div class="container">
-        <div class="row mt-3 gy-5">
-          <div class="col-lg-6 col-md-12">
-            <p class="colortext">1. ANALIZE</p>
-            <h1>Measure your social <br> media performance in a <br> few clicks</h1>
-            <p>See what’s working and deliver high engagement <br> content.</p>
-            <div class="buttons-2">
-              <button type="button" class="btn btn-primary">Get Started Now</button>
-              <button type="button" class="btn btn-outline-primary">Learn More</button>
+        <div class="row justify-content-center align-items-center gy-5 gx-md-5">
+          <div class="col-lg-5 col-md-6">
+            <p class="primary-color font-weight-bold">1. ANALIZE</p>
+            <h2>Measure your social media performance in a few clicks</h2>
+            <p>
+              See what's working and deliver high engagement <br />
+              content.
+            </p>
+            <div class="buttons">
+              <button type="button" class="btn btn-primary">
+                Get Started Now
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Learn More
+              </button>
             </div>
           </div>
-          <div class="col-lg-6 ">
-            <img src="../../src/assets/images/thumb-stop-content-2.png" alt="" class="img-fluid "/>
+          <div class="col-lg-5 col-md-6">
+            <img
+              src="../../src/assets/images/thumb-stop-content-2.png"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-        </div>    
+        </div>
+        <div
+          class="row justify-content-center align-items-center gy-5 gx-md-5 my-5 py-md-5"
+        >
+          <div class="col-lg-5 col-md-6 order-md-2">
+            <p class="primary-color font-weight-bold">
+              2 . PLAN AND PUBLISH YOUR CONTENT
+            </p>
+            <h2>Collaborate and plan your campaigns</h2>
+            <p>
+              Schedule your posts in advance so you can focus <br />
+              on other things.
+            </p>
+            <div class="buttons">
+              <button type="button" class="btn btn-primary">
+                Get Started Now
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <img
+              src="../../src/assets/images/collaborate-more-efficiently@2x.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center gy-5 gx-md-5">
+          <div class="col-lg-5 col-md-6">
+            <p class="primary-color font-weight-bold">3 . ENGAGE</p>
+            <h2>Respond to comments twice as fast</h2>
+            <p>
+              Skip to important comments with the help of <br />
+              labels and hotkeys.
+            </p>
+            <div class="buttons">
+              <button type="button" class="btn btn-primary">
+                Get Started Now
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <img
+              src="../../src/assets/images/hero-reply@2x-2.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
       </div>
-      
-      <div class="container mt-5 pt-5">
-          <div class="row gy-5">
-            <div class="col-lg-6">
-              <img src="../../src/assets/images/collaborate-more-efficiently@2x.png" alt="" class="img-fluid "/>
-            </div>
-            <div class="col-lg-6">
-              <p class="colortext">2 . PLAN AND PUBLISH YOUR CONTENT</p>
-              <h1>Collaborate and plan your campaigns</h1>
-              <p>Schedule your posts in advance so you can focus <br> on other things.</p>
-              <div class="buttons-2">
-                <button type="button" class="btn btn-primary">Get Started Now</button>
-                <button type="button" class="btn btn-outline-primary">Learn More</button>
-              </div>
-            </div>
-          </div>    
-        </div> 
-        <div class="container mt-5 pt-5">
-          <div class="row gy-5">
-            <div class="col-lg-6">
-              <p class="colortext">3 . ENGAGE</p>
-              <h1>Respond to comments <br> twice as fast</h1>
-              <p>Skip to important comments with the help of <br> labels and hotkeys.</p>
-              <div class="buttons-2">
-                <button type="button" class="btn btn-primary">Get Started Now</button>
-                <button type="button" class="btn btn-outline-primary">Learn More</button>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <img src="../../src/assets/images/hero-reply@2x-2.png" alt="" class="img-fluid "/>
-            </div>
-          </div>    
-        </div>   
-
+    </section>
          <div class="container mt-5 pt-5">
           <div class="row">
             <div class="col-12 text-center">
@@ -237,7 +297,7 @@
                 <li>Extras</li>
               </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-2">
               <ul class="footer">
                 <li class="ultag">Blog</li>
                 <li>Content Library</li>
@@ -291,12 +351,7 @@ export default {
   font-weight: bold;
 
 }
-.buffer{
-  font-size: 2.2rem;
-  line-height: 2.75rem;
-  font-weight: 750;
-  margin-top: 1rem;
-}
+
 .colortext{
   text-transform: uppercase;
   font-size: 18px;
@@ -308,18 +363,87 @@ export default {
   line-height: 20px;
   letter-spacing: 0.1px;
 } */
-h1{
-  font-size: 2.5rem;
-  line-height: 4rem;
-  margin: 0px 0px 1.875rem;
-  font-weight: 700;
+
+h1,
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
-h2{
+
+@media (min-width: 1400px) {
+  h1 {
+    margin: 0 0 25px 0;
+    font-size: 3.5rem;
+  }
+  h2 {
+    margin: 0 0 25px 0;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    text-align: center;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}
+
+.primary-color {
   color: rgb(44, 75, 255);
-  font-size: 35px;
-  line-height: 2.75rem;
-  font-weight: 600;
 }
+.font-weight-bold {
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0 0 0;
+}
+.header .collapse {
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.header .navbar-nav {
+  gap: 4rem;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.buffer {
+  font-size: 2.2rem;
+  line-height: 2.75rem;
+  font-weight: 750;
+  margin-top: 1rem;
+}
+.footer .list-items {
+  list-style: none;
+  gap: 20px;
+  line-height: 32px;
+}
+.footer .item-heading {
+  font-weight: bold;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 h4{
   font-size: 1.2rem;
     line-height: 2.75rem;
@@ -332,24 +456,14 @@ h4{
   line-height: 2.75rem;
   font-weight: 750;
 }
-p{
-  font-size: 1.25rem;
-  line-height: 2.4;
-  margin: 0px 0px 1.25rem;
-  margin-bottom: 2.3em;
-  font-weight: 100;
-}
+
 .btn{
   padding: 9px 25px;
 }
 .btn1{
   padding: 4px 24px;
 }
-.buttons{
-  display: flex;
-  gap: 25px;
-  justify-content: center;
-}
+
 .imgo{
   max-width: 600px;
   max-height: 800px;
